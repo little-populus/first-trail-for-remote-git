@@ -1,6 +1,7 @@
-#include <c++/11/iostream>
-using namespace std;
-int main() {
-	cout<<"Hello World\n";
-	return 0;
+#include "test.h"
+int Add(int x,int y) {
+	return x+y;
+}
+int Deduct(int x,int y) {
+	return x-y;
 }

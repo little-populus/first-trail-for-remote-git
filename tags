@@ -4,4 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-main	test.cpp	/^int main() {$/;"	kind:f	line:3	signature:()
+Add	test.cpp	/^int Add(int x,int y) {$/;"	kind:f	line:2	signature:(int x,int y)
+Add	test.h	/^int Add(int,int);$/;"	kind:p	line:1	signature:(int,int)
+Deduct	test.cpp	/^int Deduct(int x,int y) {$/;"	kind:f	line:5	signature:(int x,int y)
+Deduct	test.h	/^int Deduct(int,int);$/;"	kind:p	line:2	signature:(int,int)
+main	main.cpp	/^int main() {$/;"	kind:f	line:4	signature:()
